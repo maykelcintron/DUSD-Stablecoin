@@ -1,0 +1,16 @@
+# Dependencias
+node_modules/
+
+# Entornos y secretos
+.env
+.env.local
+
+# Artefactos de Remix / Hardhat / Foundry
+cache/
+out/
+artifacts/
+typechain-types/
+dist/
+build/
+.deps/
+lib/forge-std/ # (Si usas submódulos de Foundry, manéjalos adecuadamente)
